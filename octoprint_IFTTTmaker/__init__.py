@@ -35,8 +35,13 @@ class IFTTTMakerPlugin(octoprint.plugin.StartupPlugin,
                         PrintCancelled=False,
                         PrintDone=False,
                         MovieDone=False,
-                        ClientOpened=False)
-                    )
+                        ClientOpened=False,
+                        Connecting=False,
+                        Disconnecting=False,
+                        Shutdown=False,
+                        Startup=False,
+                        PowerOn=False,
+                        PowerOff=False)
                 
             
     def get_template_configs(self):
