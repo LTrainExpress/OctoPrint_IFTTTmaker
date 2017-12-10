@@ -27,7 +27,7 @@ plugin_author = "Simon Edgett"
 plugin_author_email = "simon@edgett.bc.ca"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/sedgett/OctoPrint_IFTTTmaker"
+plugin_url = "https://github.com/LTrainExpress/OctoPrint_IFTTTmaker"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
