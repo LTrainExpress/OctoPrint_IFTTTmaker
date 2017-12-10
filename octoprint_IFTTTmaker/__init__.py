@@ -42,6 +42,7 @@ class IFTTTMakerPlugin(octoprint.plugin.StartupPlugin,
                         Startup=False,
                         PowerOn=False,
                         PowerOff=False)
+                   )
                 
             
     def get_template_configs(self):
