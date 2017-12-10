@@ -12,7 +12,7 @@
 	<div class="control-group">
 	<label class="control-label">{{ _('Select Events') }}</label>
 
-	{% set events = ["PrintStarted", "PrintFailed", "PrintDone", "PrintCancelled", "MovieDone", "ClientOpened"] %}
+	{% set events = ["PrintStarted", "PrintFailed", "PrintDone", "PrintCancelled", "MovieDone", "ClientOpened", "Connecting", "Disconnecting", "Shutdown", "Startup", "PowerOn", "PowerOff"]] %}
 	{% for event in events %}
 
 	<div class="controls">
